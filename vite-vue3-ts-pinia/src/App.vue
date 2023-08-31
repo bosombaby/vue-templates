@@ -1,9 +1,7 @@
 <template>
-    <UsePinia></UsePinia>
+    <RouterView></RouterView>
 </template>
 
-<script setup lang="ts">
-import UsePinia from './components/UsePinia.vue';
-</script>
+<script setup lang="ts"></script>
 
 <style scoped></style>

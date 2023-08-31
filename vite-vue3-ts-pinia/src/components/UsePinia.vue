@@ -8,6 +8,8 @@ import { useUserStore } from '@/store';
 
 const userStore = useUserStore();
 userStore.updateName('李四');
+
+console.log(111);
 </script>
 
 <style scoped></style>
