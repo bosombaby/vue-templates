@@ -21,5 +21,14 @@ module.exports = {
 
     rules: {
         'prettier/prettier': 'warn',
+        '@typescript-eslint/ban-types': [
+            'error',
+            {
+                extendDefaults: true,
+                types: {
+                    '{}': false,
+                },
+            },
+        ],
     },
 };
