@@ -21,6 +21,16 @@ const routes: Array<RouteRecordRaw> = [
         },
         component: () => import('@/pages/IndexPage.vue'),
     },
+    {
+        path: '/vue/use',
+        name: 'VueUse',
+        meta: {
+            title: 'vueUse demo',
+            keepAlive: true,
+            requireAuth: true,
+        },
+        component: () => import('@/pages/VueUse.vue'),
+    },
 ];
 
 const router = createRouter({

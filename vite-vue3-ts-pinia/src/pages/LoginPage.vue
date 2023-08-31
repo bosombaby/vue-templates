@@ -3,6 +3,6 @@
     <br />
     <router-link to="/">点击跳转至首页</router-link>
     <br /><br />
-    <router-link to="/vueUse">点击跳转至vueUse页面</router-link>
+    <router-link to="/vue/use">点击跳转至vueUse页面</router-link>
 </template>
 <script lang="ts"></script>
